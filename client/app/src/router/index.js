@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import Login from '@/components/Login'
 import Posts from '@/components/Posts'
 import NewPosts from '@/components/NewPosts'
 import EditPosts from '@/components/EditPosts'
@@ -11,8 +11,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'Login',
+      component: Login
     },
     {
       path: '/posts',
