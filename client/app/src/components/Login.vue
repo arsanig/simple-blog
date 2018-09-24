@@ -3,7 +3,7 @@
     <h1>Login</h1>
       <div class="form">
         <div>
-          <input type="text" name="userid" placeholder="email" v-model="email">
+          <input type="email" name="useremail" placeholder="email" v-model="email">
         </div>
         <div>
           <input type="password" name="password" placeholder="password" v-model="password">
