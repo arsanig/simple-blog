@@ -8,7 +8,6 @@ import EditPosts from '@/components/EditPosts'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
   routes: [
     {
       path: '/',

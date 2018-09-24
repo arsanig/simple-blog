@@ -15,7 +15,7 @@
           <td>{{ post.title }}</td>
           <td>{{ post.description }}</td>
           <td align="center">
-            <router-link v-bind:to="{ name: 'EditPost', params: { id: post._id } }">Edit</router-link> |
+            <router-link v-bind:to="{ name: 'EditPosts', params: { id: post._id } }">Edit</router-link> |
             <a href="#" @click="deletePost(post._id)">Delete</a>
           </td>
         </tr>
@@ -23,7 +23,7 @@
     </div>
     <div v-else>
       There are no posts.. Lets add one now <br /><br />
-      <router-link v-bind:to="{ name: 'NewPost' }" class="add_post_link">Add Post</router-link>
+      <router-link v-bind:to="{ name: 'NewPosts' }" class="add_post_link">Add Post</router-link>
     </div>
   </div>
 </template>
